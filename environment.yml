@@ -1,0 +1,16 @@
+name: admissions-predictor
+channels: 
+- conda-forge
+dependencies:
+- python 3.8
+- conda
+- pandas
+- seaborn
+- re
+- matplotlib
+- numpy
+- scipy
+- scikit-learn
+- pip
+- pip:
+  - streamlit

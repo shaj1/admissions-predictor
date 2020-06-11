@@ -1,0 +1,64 @@
+date_posted,sat_1_score,sat_2_score,act_score,gpa_uw,gpa_w,gpa_max,class_rank,class_total,competetive_school,state_us,gender,race,income_bracket,hook_admit,stem_major,ivy_admit,mit_admit,stanford_admit,t10_admit,best_admit,cell_number
+2020-06-02,1200,NA,27,3.95,4.25,4,1,79,0,New York,Male,African-American,Low,0,1,0,0,0,1,UVa,1
+2020-05-28,1420,670,32,4,4.56,4,6,457,0,California,Female,Asian,Med,1,1,1,2,2,1,Brown,7
+2020-05-27,1450,710,31,4,4.58,4,3,195,0,International,Male,Hispanic,Med,1,1,2,2,1,1,Stanford,10
+2020-05-25,1560,800,NA,3.55,4.2,4,NA,NA,2,Maryland,Male,Asian,High,0,0,1,2,0,1,Columbia,14
+2020-05-24,1500,720,34,3.75,4.22,4,NA,NA,1,Wisconsin,Male,Asian,Med,1,1,1,2,0,1,Northwestern,16
+2020-05-24,1590,800,NA,3.77,4.33,4,NA,NA,2,California,Male,White,High,0,1,0,0,0,1,Berkeley,18
+2020-05-24,1590,800,36,4,4.6,4,24,685,2,North Carolina,Male,Asian,High,0,0,1,2,0,1,Duke,19
+2020-05-22,1590,790,NA,3.8,NA,4,NA,NA,2,Georgia,Female,White,High,1,0,1,2,2,1,Brown,20
+2020-05-22,1540,NA,NA,3.7,4.6,4,NA,NA,1,Massachusetts,Male,Asian,Med,0,1,0,2,2,1,Georgia Tech,21
+2020-05-22,1540,790,34,4,NA,4,NA,NA,1,Connecticut,Male,White,High,0,1,0,2,2,1,Georgia Tech,23
+2020-05-22,1540,760,NA,3.9,4.6,4,2,100,1,Texas,Male,Asian,High,0,1,0,2,2,1,UT Austin,24
+2020-05-21,1440,780,36,3.95,3.72,4,NA,NA,0,Pennsylvania,Male,White,Med,0,1,0,2,2,0,Vanderbilt,25
+2020-05-21,1520,NA,35,4,4.33,4,10,100,1,California,Female,Asian,High,1,1,1,0,0,1,Cornell,26
+2020-05-20,1580,NA,800,4,4.5,4,NA,NA,1,New Jersey,Female,Asian,Low,0,0,1,2,0,1,Princeton,27
+2020-05-20,1550,800,NA,3.5,NA,4,NA,NA,2,Massachusetts,Female,Asian,High,0,0,0,2,2,1,UMich,29
+2020-05-20,1460,670,34,3.45,4,4,110,870,2,California,Male,White,High,1,1,0,2,2,0,UW Madison,30
+2020-05-19,1490,770,34,3.94,4.46,4,3,550,0,California,Male,White,High,0,0,0,2,0,1,Berkeley,32
+2020-05-19,1470,NA,NA,44,NA,45,NA,NA,0,International,Female,Asian,Med,0,1,1,2,2,1,Cornell,33
+2020-05-19,1590,760,36,3.78,4.2,4,NA,NA,1,NA,Female,Asian,Med,0,1,1,2,2,1,Harvard,34
+2020-05-18,1380,690,NA,3.83,3.98,4,NA,NA,2,California,Male,Asian,Med,0,1,0,2,0,0,UC San Diego,36
+2020-05-17,1550,720,NA,3.85,4.2,4,NA,NA,2,Connecticut,Female,Asian,High,0,1,2,2,2,1,Georgia Tech,37
+2020-05-17,1550,800,NA,3.78,4.23,4,NA,NA,2,Maryland,Female,Asian,High,0,1,0,2,2,1,Georgia Tech,38
+2020-05-16,1590,800,NA,4,NA,4,1,450,2,New York,Female,Mixed,High,0,1,1,1,1,1,Harvard,40
+2020-05-15,1600,800,NA,4,4.8,4,1,500,2,Massachusetts,Female,Asian,High,0,0,1,2,1,1,Stanford,43
+2020-05-15,1540,800,NA,3.89,4.86,4,NA,NA,2,New Hampshire,Female,Asian,High,0,0,0,2,1,1,Stanford,45
+2020-05-15,1590,770,36,4,4.45,4,NA,NA,0,New York,Female,African-American,High,1,1,1,2,1,1,Stanford,46
+2020-05-15,1540,760,35,4.5,4.52,5,6,100,1,North Carolina,Female,Asian,Med,0,0,0,2,2,1,UNC Chapel Hill,47
+2020-05-14,1590,NA,36,3.4,3.98,4,NA,NA,1,Illinois,Male,Hispanic,Low,0,1,0,2,2,0,NYU,48
+2020-05-14,1310,NA,28,4,4.85,4,3,566,0,New York,Female,African-American,Low,1,0,0,2,2,1,Notre Dame,49
+2020-05-14,1500,720,NA,3.93,4.23,4,NA,NA,2,California,Female,White,High,0,0,0,2,2,1,Berkeley,53
+2020-05-14,1590,800,NA,97.12,NA,100,NA,NA,1,NA,Male,White,Med,0,1,0,2,2,1,Penn,54
+2020-05-13,1490,680,33,NA,4.7,4,NA,NA,0,North Carolina,Female,White,Low,0,1,1,2,2,1,Columbia,55
+2020-05-13,1590,800,36,3.93,4.7,4,NA,NA,2,California,Male,Asian,Med,0,0,0,0,0,1,Berkeley,56
+2020-05-13,1570,800,NA,3.9,4.8,4,10,100,2,International,Male,Asian,High,0,1,0,2,0,1,UMIch,57
+2020-05-13,1540,780,NA,3.8,4.4,4,26,417,2,Virginia,Male,Asian,High,0,1,0,2,0,1,CMU,58
+2020-05-13,1530,NA,NA,95,NA,100,NA,NA,2,New York,Female,Asian,High,0,1,0,2,2,0,Tufts,59
+2020-05-13,1540,NA,35,3.89,4.35,4,9,100,1,California,Male,Asian,Med,0,1,2,2,0,1,Berkeley,60
+2020-05-12,1570,770,NA,4,NA,4,5,100,2,Pennsylvania,Female,Asian,Med,0,1,0,0,0,1,CMU,61
+2020-05-12,1490,750,NA,3.97,NA,4,NA,NA,0,NA,Male,White,Med,0,0,0,2,0,0,American University,63
+2020-05-09,1540,800,35,4,4.3,4,5,100,1,Missouri,Male,Asian,Med,0,0,1,2,0,1,Harvard,64
+2020-05-09,1500,NA,34,NA,4.13,4,NA,NA,1,NA,Female,African-American,Low,1,1,1,0,0,1,Harvard,65
+2020-05-09,1540,800,NA,NA,NA,NA,NA,NA,1,Minnesota,Male,Asian,Low,1,0,0,2,2,0,Middlebury,66
+2020-05-07,1600,800,NA,3.98,4.48,4,10,100,1,California,Male,Asian,High,1,1,0,0,0,1,CMU,69
+2020-05-07,1490,NA,790,3.97,NA,4,NA,NA,1,International,Male,Asian,Low,0,0,1,0,0,1,UPenn,71
+2020-05-07,1400,760,35,4.83,4.6,5,17,481,1,Massachusetts,Male,White,High,0,0,1,2,2,1,Cornell,72
+2020-05-06,1460,780,33,4.6,4.1,5,30,200,2,New York,Male,White,High,1,0,1,2,2,1,Cornell,74
+2020-05-06,1570,800,35,4.61,4,4,26,353,2,North Carolina,Female,White,High,1,1,1,2,2,1,Harvard,75
+2020-05-06,1540,780,36,3.93,5.2,4,NA,NA,2,Illinois,Male,White,Low,0,1,1,0,0,1,UChicago,77
+2020-05-06,1500,NA,34,3.95,4.43,4,10,250,1,Florida,Male,White,High,0,1,0,2,2,1,Duke,79
+2020-05-06,1540,NA,35,3.51,3.69,4,NA,NA,1,California,Female,Mixed,High,0,1,0,2,2,0,UCSB,80
+2020-05-05,1370,800,NA,3.5,NA,4,NA,NA,1,California,NA,NA,NA,0,1,0,2,2,0,UC Riverside,85
+2020-05-05,1510,800,NA,3.8,NA,4,NA,NA,1,New Jersey,Male,White,Med,0,1,0,0,2,1,UMich,86
+2020-05-04,1560,790,NA,3.88,NA,4,NA,NA,1,Texas,Male,Asian,Med,0,1,1,2,2,1,Cornell,87
+2020-05-04,1560,790,NA,3.8,4.18,4,NA,NA,1,California,Male,Asian,Med,0,1,0,2,0,0,UC Riverside,88
+2020-5-3,1530,800,NA,3.94,4.44,4,NA,NA,1,International,Male,Asian,High,0,0,1,0,1,1,Cornell,89
+2020-05-02,1460,NA,33,3.83,4.4,4,NA,NA,1,Tennessee,Female,Asian,Low,0,1,0,2,2,0,Vanderbilt,91
+2020-04-30,1500,NA,34,3.88,4.37,4,36,129,1,Florida,Female,Asian,High,0,1,0,0,2,0,UF,95
+2020-04-30,1590,780,36,4,4.58,4,NA,NA,1,NA,Female,White,High,0,0,0,2,0,0,UMN,96
+2020-04-29,1460,NA,33,3.51,4.2,4,180,900,2,Texas,Female,Asian,Med,0,1,0,0,0,0,Purdue?,97
+2020-04-29,1560,800,NA,3.95,4.33,4,NA,NA,1,NA,Male,White,High,0,0,1,2,0,1,Dartmouth,99
+2020-04-28,1400,650,33,3.7,4.4,4,90,600,1,Arizona,Male,White,Med,0,0,0,2,2,0,Pittsburgh,101
+2020-04-27,1550,800,NA,3.94,NA,4,NA,NA,1,New York,Male,Asian,Med,0,1,0,0,2,0,Georgia Tech,103
+2020-04-25,1500,800,35,3.9,4.3,4,NA,NA,2,California,Male,Asian,Med,0,1,0,2,0,1,Berkeley,111
