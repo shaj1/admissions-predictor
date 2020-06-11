@@ -15,7 +15,7 @@ from sklearn.metrics import accuracy_score, classification_report, precision_sco
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import confusion_matrix, precision_recall_curve, roc_curve, auc, log_loss
-import matplotlib.pyplot as plt
+
 
 
 def run_the_app(sat, gpa, competitive, hook_val, stem_val):
