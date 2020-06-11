@@ -5,6 +5,8 @@ import pandas as pd
 pd.set_option("display.precision", 2)
 import streamlit as st
 # Data Visualization
+
+import matplotlib
 import matplotlib.pyplot as plt
 import seaborn as sns
 
