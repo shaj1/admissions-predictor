@@ -1,6 +1,7 @@
 # Import libraries for data analysis
 import numpy as np
 import pandas as pd
+import time
 
 pd.set_option("display.precision", 2)
 import streamlit as st
@@ -119,9 +120,9 @@ def run_the_app(gpa_w, gpa_val, hook_val, competitive, ap_val, college_group_val
     latest_iteration = st.empty()
     bar = st.progress(0)
 
-    for i in range(bb[0][1] * 100):
+    for i in range(int(bb[0][1] * 100)):
       # Update the progress bar with each iteration.
-      latest_iteration.text(f'Iteration {i+1}')
+      latest_iteration.text(f'{i+1}% chance')
       bar.progress(i + 1)
       time.sleep(0.1)
 
