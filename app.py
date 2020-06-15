@@ -116,19 +116,28 @@ def run_the_app(gpa_w, gpa_val, hook_val, competitive, ap_val, college_group_val
     else:
         labels = ['Other colleges', 'Top 25']
 
-    sizes = [bb[0][0] * 100, bb[0][1] * 100]
-    # only "explode" the 2nd slice (i.e. 'Hogs')
-    explode = (0, 0.1)
-    # add colors
-    colors = ['#ff9999', '#66b3ff']
-    fig1, ax1 = plt.subplots()
-    ax1.pie(sizes, explode=explode, labels=labels, colors=colors, autopct='%1.1f%%',
-            shadow=True, startangle=90)
-    # Equal aspect ratio ensures that pie is drawn as a circle
-    ax1.axis('equal')
-    plt.tight_layout()
-    if st.checkbox('View Results'):
-        st.pyplot()
+    latest_iteration = st.empty()
+    bar = st.progress(0)
+
+    for i in range(bb[0][1] * 100):
+      # Update the progress bar with each iteration.
+      latest_iteration.text(f'Iteration {i+1}')
+      bar.progress(i + 1)
+      time.sleep(0.1)
+
+    # sizes = [bb[0][0] * 100, bb[0][1] * 100]
+    # # only "explode" the 2nd slice (i.e. 'Hogs')
+    # explode = (0, 0.1)
+    # # add colors
+    # colors = ['#ff9999', '#66b3ff']
+    # fig1, ax1 = plt.subplots()
+    # ax1.pie(sizes, explode=explode, labels=labels, colors=colors, autopct='%1.1f%%',
+    #         shadow=True, startangle=90)
+    # # Equal aspect ratio ensures that pie is drawn as a circle
+    # ax1.axis('equal')
+    # plt.tight_layout()
+    # if st.checkbox('View Results'):
+    #     st.pyplot()
 
 
 def competitive_map(c_str):
