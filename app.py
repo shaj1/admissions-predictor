@@ -117,14 +117,82 @@ def run_the_app(gpa_w, gpa_val, hook_val, competitive, ap_val, college_group_val
     else:
         labels = ['Other colleges', 'Top 25']
 
+    # add an horizonal label for the y axis 
+    fig1, ax1 = plt.subplots(figsize=(1, 2))
+    fig1.text(-0.002, 0.9, 'Your Chances', fontsize=15, fontweight='black', color = '#333F4B')
     latest_iteration = st.empty()
     bar = st.progress(0)
 
     for i in range(int(bb[0][1] * 100)):
       # Update the progress bar with each iteration.
-      latest_iteration.text(f'{i+1}% chance')
+      latest_iteration.text(f'{i+1}%')
       bar.progress(i + 1)
       time.sleep(0.1)
+
+    # BAR PLOT BEGIN
+
+    # set font
+    plt.rcParams['font.family'] = 'sans-serif'
+    plt.rcParams['font.sans-serif'] = 'Helvetica'
+
+    # set the style of the axes and the text color
+    plt.rcParams['axes.edgecolor']='#333F4B'
+    plt.rcParams['axes.linewidth']=0.8
+    plt.rcParams['xtick.color']='#333F4B'
+    plt.rcParams['ytick.color']='#333F4B'
+    plt.rcParams['text.color']='#333F4B'
+
+    # create some fake data
+    percentages = pd.Series([20, 15, 18, 8, 6, 7, 10, 2, 10, 4], 
+                            index=['Rent', 'Transportation', 'Bills', 'Food', 
+                                   'Travel', 'Entertainment', 'Health', 'Other', 'Clothes', 'Phone'])
+    df = pd.DataFrame({'percentage' : percentages})
+    df = df.sort_values(by='percentage')
+
+    # we first need a numeric placeholder for the y axis
+    my_range=list(range(1,len(df.index)+1))
+
+    fig, ax = plt.subplots(figsize=(5,3.8))
+
+    # create for each expense type an horizontal line that starts at x = 0 with the length 
+    # represented by the specific expense percentage value.
+    plt.hlines(y=my_range, xmin=0, xmax=df['percentage'], color='#007ACC', alpha=0.2, linewidth=5)
+
+    # create for each expense type a dot at the level of the expense percentage value
+    plt.plot(df['percentage'], my_range, "o", markersize=5, color='#007ACC', alpha=0.6)
+
+    # set labels
+    ax.set_xlabel('Percentage', fontsize=15, fontweight='black', color = '#333F4B')
+    ax.set_ylabel('')
+
+    # set axis
+    ax.tick_params(axis='both', which='major', labelsize=12)
+    plt.yticks(my_range, df.index)
+
+    # add an horizonal label for the y axis 
+    fig.text(-0.002, 0.9, 'Your Best Chances', fontsize=15, fontweight='black', color = '#333F4B')
+
+    # change the style of the axis spines
+    ax.spines['top'].set_color('none')
+    ax.spines['right'].set_color('none')
+    ax.spines['left'].set_smart_bounds(True)
+    ax.spines['bottom'].set_smart_bounds(True)
+
+    # set the spines position
+    ax.spines['bottom'].set_position(('axes', -0.04))
+    ax.spines['left'].set_position(('axes', 0.015))
+
+    ax.set_facecolor('white')
+
+    #plt.grid(color='r')
+
+    st.pyplot()
+
+   # plt.savefig('hist2.png', dpi=300, bbox_inches='tight')
+
+    # BAR PLOT END
+
+
 
     # sizes = [bb[0][0] * 100, bb[0][1] * 100]
     # # only "explode" the 2nd slice (i.e. 'Hogs')
@@ -160,6 +228,7 @@ def college_group_map(c_str):
 def main():
     # Inputs
     st.title('Chances of getting into a Top University')
+    st.markdown('Provide your application information in the fields below and we\'ll tell you your odds of getting in!')
     #sat_score = st.selectbox("What is your total SAT I score?: ", np.arange(800, 1610, 10))
     gpa_val = st.text_input('What is your unweighted GPA', 3.5)
     gpa_w_val = st.text_input('What is your weighted GPA', 4.1)
